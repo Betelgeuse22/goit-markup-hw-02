@@ -1,0 +1,60 @@
+:root{
+    --primary-text-color: #757575;
+    --secondary-text-color: #FFFFFF;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+body {
+    color: var(--primary-text-color);
+}
+
+.hero, .footer {
+    background-color: #2F303A;
+}
+.our-team {
+    background-color: #F5F4FA;
+}
+
+a {
+    text-decoration: none;}
+/* header */
+.list {
+    list-style: none;
+}
+
+/* Logo */
+.logo-web {
+    color: var(--accent-color);
+}
+.logo-studio-black {
+    color: #000000;
+}
+.logo-studio-white {
+    color: var(--secondary-text-color);
+}
+
+/* navigation */
+.site-nav .link:hover,
+.auth-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+.auth-nav>a {
+        color: #757575;
+    }
+
+
+/* main */
+.section-title {
+    color: var(--title-text-color);
+}
+    /* Hero */
+.hero-title, .map {
+    color: var(--secondary-text-color);
+}
+
+/* footer */
+.footer>.auth-nav>a {
+    color: rgba(255, 255, 255, 0.6);
+}
