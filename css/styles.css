@@ -33,6 +33,7 @@ a {
 /* button */
 .hero [type="button"] {
     background-color: var(--accent-color);
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -45,10 +46,12 @@ a {
 }
 
 [type="button"] {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+    letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer;
 }
@@ -78,6 +81,7 @@ a {
 .logo-web {
     color: var(--accent-color);
 }
+
 .logo .logo-studio-black:hover,
 .logo .logo-studio-black:focus{
     color: var(--accent-color);
@@ -96,14 +100,22 @@ a {
 
 /* navigation */
 .site-nav .link,
-.auth-nav .map,
 .auth-nav .link {
     font-weight: 500;
      font-size: 14px;
     line-height: 1.14;
     font-style: normal;
+    letter-spacing: 0.02em;
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.auth-nav .link {
+    color: var(--primary-text-color);
 }
 
+.address .link:hover,
+.address .link:focus,
 .site-nav .link:hover,
 .auth-nav .link:hover,
 .site-nav .link:focus,
@@ -116,7 +128,7 @@ a {
 
 
 /* main */
-.section-title{
+.section-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -128,7 +140,7 @@ a {
     color: var(--title-text-color);
 }
     /* Hero */
-.hero-title, .map {
+.hero-title {
     color: var(--secondary-text-color);
 }
 .hero-title {
@@ -138,6 +150,14 @@ a {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+}
+
+.section-team {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        color: var(--title-text-color);
 }
 
 .position {
@@ -177,6 +197,20 @@ a {
 }
 
 /* footer */
-.footer>.auth-nav>a {
-    color: rgba(255, 255, 255, 0.6);
+.address {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;    
+}
+.address>a {
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.map {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--secondary-text-color);
 }
