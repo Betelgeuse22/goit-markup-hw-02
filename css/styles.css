@@ -10,20 +10,30 @@ body {
     
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .hero, .footer {
     background-color: #2F303A;
 }
-.our-team {
-    background-color: #F5F4FA;
+
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
 }
 
-a {
+.link {
     text-decoration: none;}
 
 .list {
@@ -151,6 +161,11 @@ a {
         letter-spacing: 0.06em;
         text-transform: uppercase;
 }
+
+.our-team {
+    background-color: #F5F4FA;
+}
+
 
 .section-team {
         font-weight: 500;
